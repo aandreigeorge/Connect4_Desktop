@@ -44,6 +44,8 @@ public class ConnectFour extends JFrame {
 
         JButton resetButton = new JButton("Reset");
         resetButton.setName("ButtonReset");
+        resetButton.setForeground(Color.WHITE);
+        resetButton.setBackground(new Color(15, 76, 117));
         resetButton.addActionListener(e -> resetGame(cells));
         add(resetButton, BorderLayout.SOUTH);
 
